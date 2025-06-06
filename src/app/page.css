@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+  .logoContainer {
+    width: 120px !important;
+    height: 60px !important;
+    margin: 0 5px !important;
+  }
+  .logo {
+    max-width: 100% !important;
+    max-height: 60px !important;
+  }
+  .inapp-logo {
+    max-width: 120% !important;
+    max-height: 110px !important;
+  }
+  .ieeecslogo {
+    max-width: 80% !important;
+    max-height: 70px !important;
+  }
+  h1.responsiveHeading {
+    font-size: 2rem !important;
+    margin-bottom: 10px !important;
+  }
+  p.responsiveSubheading {
+    font-size: 1rem !important;
+    margin-bottom: 20px !important;
+  }
+  .logoRow {
+    justify-content: center !important;
+  }
+}
+
+/* Award cards hover effects */
+.awards-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 50px rgba(204, 35, 46, 0.15) !important;
+}
+
+.timeline-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 50px rgba(204, 35, 46, 0.15) !important;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 50px rgba(0,0,0,0.15) !important;
+}
